@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,60 +9,100 @@
 
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
+
 <body>
     <div class="wrapper">
-    <header>
-        <div id="Sufian Classic CAR Shop"><a href="index.html"><img src="logo.png" alt=""></a>
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Products</a></li>                
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Contact us</a></li>                        
-                </ul>
-            </nav>
-        </div>
-        
-    </header>
-    
-    <main>
-        <div>
-			<h1>Welcome to Classic White</h1>
-				 <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
-				 The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's 
-				 De Finibus Bonorum et Malorum for use in a type specimen book.</p>
+        <header>
+            <div id="Sufian Classic CAR Shop"><a href="index.html"><img src="logo.png" alt=""></a>
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+
+        <main>
+            <div>
+                <h1>Welcome to Classic White</h1>
+                <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or
+                    web designs.
+                    The passage is attributed to an unknown typesetter in the 15th century who is thought to have
+                    scrambled parts of Cicero's
+                    De Finibus Bonorum et Malorum for use in a type specimen book.</p>
                 <div class="row">
                     <div class="column">
-                      <img src="1.jpg" alt="Classaptent" style="width:100%">
-                      <p>Classaptent</p>
-						<p>Price:150K</p>
+                        <img src="1.jpg" alt="Classaptent" style="width:100%">
+                        <p>Classaptent</p>
+                        <p>Price:150K</p>
                         <button id="purchase" onclick="YouAre()">Purchase</button>
                     </div>
                     <div class="column">
-                      <img src="2.jpg" alt="Forest" style="width:100%">
-                      <p>Sedduirisus</p>
-						<p>Price:200K</p>
+                        <img src="2.jpg" alt="Forest" style="width:100%">
+                        <p>Sedduirisus</p>
+                        <p>Price:200K</p>
                         <button id="purchase" onclick="YouAre()">Purchase</button>
                     </div>
                     <div class="column">
-                      <img src="3.jpg" alt="Mountains" style="width:100%">
-                      <p>Pellentesquequis</p>
-						<p>Price:300K</p>
-                        <button id="purchase" onclick="YouAre()">Purchase</button>					  
-					</div>
+                        <img src="3.jpg" alt="Mountains" style="width:100%">
+                        <p>Pellentesquequis</p>
+                        <p>Price:300K</p>
+                        <button id="purchase" onclick="YouAre()">Purchase</button>
+                    </div>
                 </div>
-                <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
-                    The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's 
-                    De Finibus Bonorum et Malorum for use in a type specimen book.</p>     
-        </div>
-        
-    </main>
+                <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or
+                    web designs.
+                    The passage is attributed to an unknown typesetter in the 15th century who is thought to have
+                    scrambled parts of Cicero's
+                    De Finibus Bonorum et Malorum for use in a type specimen book.</p>
+            </div>
 
-    <footer>
-        <div>
-            <p class="footer">&copy; CopyRihgt 2021 Sufian</p>
+          
+        </main>
+
+        <div class="form-map-cont">
+                
+            <div class="form">
+                <h3>Contact Form</h3>
+                <div class="container-form">
+                    <form action="/action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+
+            <div class="map">
+                <h3>Our Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3090.409098266279!2d-84.29612428545879!3d39.23358403466387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884055bcdb0fbd0b%3A0x69e9ee7dcbc551d7!2sClassic%20Car%20Ln%2C%20Miami%20Township%2C%20OH%2045140%2C%20USA!5e0!3m2!1sen!2sjo!4v1642369429271!5m2!1sen!2sjo" width="500px" height="585px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
         </div>
-    </footer>
-</div><!-- wrapper -->
+        <footer>
+            <div class="footer">
+                <p>&copy; CopyRihgt 2022 Sufian</p>
+            </div>
+        </footer>
+    </div><!-- wrapper -->
 </body>
+
 </html>
